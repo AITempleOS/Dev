@@ -44,7 +44,7 @@ Here's an example of what the Goal is so far for AITempleOS could look like:
 - Improved support for smart home automation and IoT devices
 - Fixed various bugs and security issues
 
-could look like. Here is an example of a file tree structure for AITempleOS:
+Structure for AITempleOS:
 
 ```
 AITempleOS/
@@ -79,4 +79,3 @@ AITempleOS/
     └── Sys.ZC
 ```
 
-A
