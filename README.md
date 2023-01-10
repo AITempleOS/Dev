@@ -43,3 +43,34 @@ Here's an example of what the Goal is so far for AITempleOS could look like:
 - Improved support for 3D graphics and game development
 - Improved support for smart home automation and IoT devices
 - Fixed various bugs and security issues
+
+AITempleOS/
+├── Doc/
+│   ├── Manuals/
+│   │   ├── UserGuide.pdf
+│   │   └── DeveloperGuide.pdf
+│   └── Licenses/
+│       ├── GPLv3.txt
+│       └── MIT.txt
+├── Kernel/
+│   ├── Core/
+│   │   ├── Boot.ZXE
+│   │   ├── Kernel.ZXE
+│   │   └── Memory.ZXE
+│   └── Drivers/
+│       ├── Network.ZXE
+│       ├── Sound.ZXE
+│       └── Graphics.ZXE
+├── System/
+│   ├── Library/
+│   │   ├── C++/
+│   │   └── Lua/
+│   └── Bin/
+│       ├── startai.ZC
+│       ├── trainai.ZC
+│       └── runai.ZC
+└── Home/
+    ├── Registry.ZC
+    ├── MakeHome.ZC
+    ├── Localize.ZC
+    └── Sys.ZC
