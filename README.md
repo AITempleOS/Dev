@@ -1,4 +1,4 @@
-# Dev
+# AITempleOS V 1.0.0
 The Official AITempleOS Development Git
 
 
