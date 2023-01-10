@@ -45,37 +45,30 @@ Here's an example of what the Goal is so far for AITempleOS could look like:
 - Fixed various bugs and security issues
 
 Structure for AITempleOS:
-
 ```
-AITempleOS/
-├── Doc/
-│   ├── Manuals/
-│   │   ├── UserGuide.pdf
-│   │   └── DeveloperGuide.pdf
-│   └── Licenses/
-│       ├── GPLv3.txt
-│       └── MIT.txt
-├── Kernel/
-│   ├── Core/
-│   │   ├── Boot.ZXE
-│   │   ├── Kernel.ZXE
-│   │   └── Memory.ZXE
-│   └── Drivers/
-│       ├── Network.ZXE
-│       ├── Sound.ZXE
-│       └── Graphics.ZXE
-├── System/
-│   ├── Library/
-│   │   ├── C++/
-│   │   └── Lua/
-│   └── Bin/
-│       ├── startai.ZC
-│       ├── trainai.ZC
-│       └── runai.ZC
-└── Home/
-    ├── Registry.ZC
-    ├── MakeHome.ZC
-    ├── Localize.ZC
-    └── Sys.ZC
+src/
+    Boot/
+        BootLoader.ZC
+        Kernel.ZXE
+    Compiler/
+        Compiler.ZC
+        Optimizer.ZC
+        Parser.ZC
+    Home/
+        MakeHome.ZC
+        Registry.ZC
+        Settings.ZC
+        User.ZC
+    Lib/
+        Libc.ZC
+        Libm.ZC
+        Libz.ZC
+    Misc/
+        Calculator.ZC
+        Notepad.ZC
+        Paint.ZC
+    System/
+        Memory.ZC
+        Scheduler.ZC
+        Syscalls.ZC
 ```
-
