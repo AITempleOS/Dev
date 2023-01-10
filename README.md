@@ -274,16 +274,7 @@ patch old-src/Doc/DeveloperGuide.pdf dev-doc-patch.diff
 diff -u old-src/System/Installer.ZC new-src/System/Installer.ZC > installer-patch.diff
 patch old-src/System/Installer.ZC installer-patch.diff
 ```
-Example list of modules made for AITempleOS:
 
-1. AI Kernel - This module enhances the kernel of AITempleOS to integrate AI capabilities, such as machine learning and natural language processing.
-2. Holy Lua - This module extends the functionality of the Lua scripting language to include support for religious themes and concepts.
-3. 3D Graphics - This module adds support for 3D graphics, allowing for the creation of 3D games and other immersive experiences within AITempleOS.
-4. Blockchain Integration - This module enables the use of blockchain technology for secure and decentralized updates and data management within AITempleOS.
-5. Mythological Naming - This module assigns mythical names to AI components and features within AITempleOS, such as naming the AI terminal as "Odin's Terminal"
-6. P2P Network - This module allows AITempleOS to connect and share updates with other devices on a peer-to-peer network.
-7. Advanced Terminal - This module enhances the terminal with additional features such as AI-based command suggestions and natural language processing capabilities.
-8. Cryptographic Hash Function - This module creates a unique hash function for AITempleOS that is based on religious or mythological concepts.
 
 
 ##Disclamer this is currently a working project for a game
